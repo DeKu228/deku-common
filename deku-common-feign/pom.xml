@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.deku</groupId>
+        <artifactId>deku-common</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../../deku-common/pom.xml</relativePath>
+    </parent>
+
+    <artifactId>deku-common-feign</artifactId>
+    <packaging>jar</packaging>
+
+    <name>deku-common-feign</name>
+    <url>https://github.com/dekuCode2016</url>
+    <inceptionYear>2019-Now</inceptionYear>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.deku</groupId>
+            <artifactId>deku-common-base</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
+</project>
